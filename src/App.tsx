@@ -23,7 +23,7 @@ function App() {
               </div>
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
-              <img src="./../Public/photo.jpg" alt="Mahmoud Elwazeer" className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg" />
+              <img src="./photo.jpg" alt="Mahmoud Elwazeer" className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg" />
             </div>
           </div>
         </div>
@@ -37,7 +37,12 @@ function App() {
             <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
                 <Code2 className="w-12 h-12 text-green-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
-                <p className="text-gray-600">Python, Node.js, Express.js, and RESTful APIs</p>
+                <p className="text-gray-600">Python (Flask, Django, FastAPI, Frappe), Node.js (Express), RESTful APIs, Sockets and Unit Testing</p>
+            </div>
+            <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
+              <Database className="w-12 h-12 text-red-600 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Databases</h3>
+              <p className="text-gray-600">MySQL, PostgreSQL, MongoDB, Redis (caching), and database optimization</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
               <Terminal className="w-12 h-12 text-blue-600 mb-4" />
@@ -47,12 +52,7 @@ function App() {
             <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
               <Server className="w-12 h-12 text-purple-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">DevOps</h3>
-              <p className="text-gray-600">Docker, CI/CD, AWS, and infrastructure automation</p>
-            </div>
-            <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
-              <Database className="w-12 h-12 text-red-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Databases</h3>
-              <p className="text-gray-600">MySQL, PostgreSQL, MongoDB, and database optimization</p>
+              <p className="text-gray-600">Docker, CI/CD, Ansible, Terraform, AWS, and infrastructure automation</p>
             </div>
           </div>
         </div>
@@ -94,9 +94,10 @@ function App() {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Professional Experience</h2>
           <div className="space-y-8">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold">Backend Developer</h3>
-              <p className="text-gray-600 mb-2">USAMIF | 2023 - Present</p>
+              <h3 className="text-xl font-semibold">Backend Developer (Freelancer)</h3>
+              <p className="text-gray-600 mb-2">Aug. 2024 - Present</p>
               <ul className="list-disc list-inside text-gray-600">
+                <li>Career Platform <a href="https://career.usamif.com/" target="_blank" className="format"> USAM </a> Job portal & CV Builder</li>
                 <li>Developed and maintained RESTful APIs using Node.js and Express</li>
                 <li>Implemented database solutions using MySQL and MongoDB</li>
                 <li>Collaborated with frontend developers to integrate API endpoints</li>
