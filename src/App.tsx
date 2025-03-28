@@ -23,7 +23,7 @@ function App() {
               </div>
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
-              <img src="./photo.jpg" alt="Mahmoud Elwazeer" className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg" />
+              <img src="/photo.jpg" alt="Mahmoud Elwazeer" className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg" />
             </div>
           </div>
         </div>
