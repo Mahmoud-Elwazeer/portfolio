@@ -63,25 +63,82 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Task Management Api</h3>
+                <p className="text-gray-600 mb-4">The Task Management API is a scalable, event-driven, and high-performance backend service.</p>
+                <p className="text-gray-600 mb-4"> Technologies: Node.js, TypeScript, Express, MongoDB, Redis, BullMQ, and RabbitMQ,  all orchestrated with Docker. Also assisted in setting up CI/CD using GitHub Actions.</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/Task_Management_API" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div> */}
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Simple Shell</h3>
-                <p className="text-gray-600 mb-4">A custom shell implementation in C, supporting basic commands and pipeline operations</p>
-                <a href="https://github.com/Mahmoud-Elwazeer/simple_shell" className="text-blue-600 hover:text-blue-800">View Project →</a>
+                <h3 className="text-xl font-semibold mb-2">E-Commerce API</h3>
+                <p className="text-gray-600 mb-4"> This E-commerce API is built using Django and Django REST Framework (DRF).</p>
+                <p className="text-gray-600 mb-4"> Technologies: Python, Django, MySQL.</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/Django-app"  target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">AirBnB Clone</h3>
-                <p className="text-gray-600 mb-4">Full-stack web application clone of AirBnB with Python backend and RESTful API</p>
-                <a href="https://github.com/Mahmoud-Elwazeer/AirBnB_clone_v2" className="text-blue-600 hover:text-blue-800">View Project →</a>
+                <h3 className="text-xl font-semibold mb-2">Company Management System</h3>
+                <p className="text-gray-600 mb-4">A system for managing companies, departments, employees, and projects with a workflow for employee performance reviews.</p>
+                <p className="text-gray-600 mb-4"> Technologies: Python, Frappe, MySQL.</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/company_management_system"  target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Financial-Instruments</h3>
+                <p className="text-gray-600 mb-4">Full-stack web application  designed to manage, and visualize market data efficiently</p>
+                <p className="text-gray-600 mb-4">Technologies: React, Node.js, Express, MongoDB, and Redis, all orchestrated with Docker. Also assisted in setting up CI/CD using GitHub Actions.</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/financial-instruments" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Social Media API</h3>
+                <p className="text-gray-600 mb-4">Technologies: Node js, Express, MongoDB</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/Social-Media-Dashboard" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">GitStore</h3>
-                <p className="text-gray-600 mb-4">Version control system implementation with basic Git functionality</p>
-                <a href="https://github.com/Mahmoud-Elwazeer/GitStore" className="text-blue-600 hover:text-blue-800">View Project →</a>
+                <p className="text-gray-600 mb-4">Full-stack web application For E-Commerce</p>
+                <p className="text-gray-600 mb-4">Technologies: Python, Flask, Javascript, Bootstrap </p>
+                <a href="https://github.com/Mahmoud-Elwazeer/GitStore" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">AirBnB Clone</h3>
+                <p className="text-gray-600 mb-4">Full-stack web application For AirBnB Clone</p>
+                <p className="text-gray-600 mb-4">Technologies: Python, Flask, HTML,CSS, Javascript </p>
+                <a href="https://github.com/Mahmoud-Elwazeer/AirBnB_clone_v4" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Dockerized Application Development</h3>
+                <p className="text-gray-600 mb-4">This repository includes examples, configurations, and best practices for building, deploying, and managing applications in Docker containers.</p>
+                <p className="text-gray-600 mb-4">Technologies: Docker, Bash scripting, System Monitoring, Grafana, Web Applications, Nginx, DevOps</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/Developing_APPS_Docker" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Linux Administration and Devops Projects</h3>
+                <p className="text-gray-600 mb-4">This repository covers a wide range of topics, including shell scripting, Linux system administration, networking, and DevOps practices.</p>
+                <p className="text-gray-600 mb-4">Technologies: Docker, Bash scripting, Networking, Nginx, DevOps</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/alx-system_engineering-devops" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Linux Shell</h3>
+                <p className="text-gray-600 mb-4">Implemented my own shell in C using system call and avoiding standard library.</p>
+                <a href="https://github.com/Mahmoud-Elwazeer/simple_shell" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
               </div>
             </div>
           </div>
@@ -97,13 +154,13 @@ function App() {
               <h3 className="text-xl font-semibold">Backend Developer (Freelancer)</h3>
               <p className="text-gray-600 mb-2">Aug. 2024 - Present</p>
               <ul className="list-disc list-inside text-gray-600">
-                <li>Career Platform <a href="https://career.usamif.com/" target="_blank" className="format"> USAM </a> Job portal & CV Builder</li>
-                <li>Developed and maintained RESTful APIs using Node.js and Express</li>
-                <li>Implemented database solutions using MySQL and MongoDB</li>
+                {/* <li>Career Platform <a href="https://career.usamif.com/" target="_blank" className="format"> USAM </a> Job portal & CV Builder</li> */}
+                <li>Developed and maintained RESTful APIs using Node.js and Python</li>
+                <li>Implemented database solutions using MySQL, PostgreSQL and MongoDB</li>
                 <li>Collaborated with frontend developers to integrate API endpoints</li>
               </ul>
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg">
+            {/* <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold">DevOps Engineer</h3>
               <p className="text-gray-600 mb-2">3akl Books | 2023</p>
               <ul className="list-disc list-inside text-gray-600">
@@ -111,7 +168,7 @@ function App() {
                 <li>Managed Docker containers and orchestration</li>
                 <li>Implemented monitoring and logging solutions</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
