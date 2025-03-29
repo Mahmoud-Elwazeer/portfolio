@@ -154,21 +154,46 @@ function App() {
               <h3 className="text-xl font-semibold">Backend Developer (Freelancer)</h3>
               <p className="text-gray-600 mb-2">Aug. 2024 - Present</p>
               <ul className="list-disc list-inside text-gray-600">
-                {/* <li>Career Platform <a href="https://career.usamif.com/" target="_blank" className="format"> USAM </a> Job portal & CV Builder</li> */}
-                <li>Developed and maintained RESTful APIs using Node.js and Python</li>
-                <li>Implemented database solutions using MySQL, PostgreSQL and MongoDB</li>
-                <li>Collaborated with frontend developers to integrate API endpoints</li>
+                <li> <a href="https://career.usamif.com/" target="_blank" className="text-blue-600 hover:text-blue-800">Career Platform </a>  Job portal & CV Builder</li>
+                <li> <a href="https://freelancing.usamif.com/" target="_blank" className="text-blue-600 hover:text-blue-800"> Freelancing Platform </a></li>
+                <li> <a href="https://www.3akl-books.store/" target="_blank" className="text-blue-600 hover:text-blue-800"> Bookstore</a> An e-commerce platform for purchasing books.</li>
+                <li>Designed and implemented REST API backend applications from the ground up to meet the startup business requirements using Node.js and Python</li>
+                <li>
+                  Built a scalable and secure backend infrastructure on AWS (RDS, EC2) to support high traffic,
+                  ensuring optimal performance,
+                </li>
+                <li>
+                Secure data transmission with HTTPS/SSL, and protection against
+                excessive requests through rate limiting.
+                </li>
+                <li>setting up CI/CD using Github Actions</li>
               </ul>
             </div>
-            {/* <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold">DevOps Engineer</h3>
-              <p className="text-gray-600 mb-2">3akl Books | 2023</p>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold">Backend Engineering Intern, KeenSight - US (Remote)</h3>
+              <p className="text-gray-600 mb-2">Oct. 2024 – Jan. 2025</p>
               <ul className="list-disc list-inside text-gray-600">
-                <li>Set up and maintained CI/CD pipelines</li>
-                <li>Managed Docker containers and orchestration</li>
-                <li>Implemented monitoring and logging solutions</li>
+                <li>Designed and implemented a REST API backend solutions </li> 
+                <li> Integrated with Photopea to facilitate advanced image processing
+                workflows, including mockup automation by inserting images into PSD templates.</li>
+                <li>Supported batch operations with automated tasks such as resizing, cropping, grayscale conversion, adding borders, watermarking, inverting colors, and more.</li>
+                <li>integrated with social media, enabling automated posting to platforms such
+                as Facebook, Instagram, Twitter, Reddit, TikTok, YouTube Shorts, and Bluesky.</li>
               </ul>
-            </div> */}
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold">Software Engineer Intern, ALX SE (Remote)</h3>
+              <p className="text-gray-600 mb-2">Feb. 2023 – April 2024</p>
+              <ul className="list-disc list-inside text-gray-600">
+                <li>Implemented several algorithms as well as improved my problem-solving skills by a great amount and applied said skills in several
+                projects</li> 
+                <li>Managed infrastructure, deploying apps to servers using tools like Fabric, and Datadog for monitoring.</li>
+                <li>Hosted applications using Nginx as the web server, with Gunicorn as the application server for Python and PM2 for Node.js apps.</li>
+                <li> <a href="https://drive.google.com/file/d/1l2AzJBZZWD0vOCCq2IuvQnPndZMZgrUH/view?usp=sharing" target="_blank" className="text-blue-600 hover:text-blue-800"> ALX-Software-Engineering-Curriculum</a>.</li>
+                <li> <a href="https://drive.google.com/file/d/1iklqS359Mob0N530O7OzXev4cis-dGzu/view?usp=sharing" target="_blank" className="text-blue-600 hover:text-blue-800"> Transcript</a>.</li>
+                <li> <a href="https://intranet.alxswe.com/certificates/6yzN3BRFfp" target="_blank" className="text-blue-600 hover:text-blue-800"> Certification</a>.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
