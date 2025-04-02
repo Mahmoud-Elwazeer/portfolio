@@ -198,6 +198,42 @@ function App() {
         </div>
       </section>
 
+      {/* Extracurricular Activities Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Extracurricular Activities</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold">Head of Software Engineering | Menofia Racing Team | University Level</h3>
+              <p className="text-gray-600 mb-4">Sep 2021 – Sep 2024</p>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">•</span>
+                  Head of software engineering and participated in Formula Student EV UK Concept Class (FSUK) 2023 and EVER EGYPT Dynamic Class 2022 & 2024
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">•</span>
+                  Traveled to the UK in 2023 to represent the Menofia Racing Team at the Formula Student EV UK Concept Class 2023 competition
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">•</span>
+                  Led a team in designing and developing software systems for EV cars from the study phase to the final build
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">•</span>
+                  Wrote the driving software for several types of controllers using C, C++ and Python
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">•</span>
+                  Developed trajectory tracking algorithms in a team of 4 using ROS and Python during EVER V autonomous competition 2024
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Contact Section */}
       <section className="py-16">
         <div className="container mx-auto px-6">
