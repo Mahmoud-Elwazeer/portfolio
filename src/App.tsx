@@ -154,13 +154,17 @@ function App() {
               <h3 className="text-xl font-semibold">Backend Developer (Freelancer)</h3>
               <p className="text-gray-600 mb-2">Aug. 2024 - Present</p>
               <ul className="list-disc list-inside text-gray-600">
-                <li> <a href="https://career.usamif.com/" target="_blank" className="text-blue-600 hover:text-blue-800">Career Platform </a>  Job portal & CV Builder</li>
+                <li>Led the team and collaborated closely with frontend and UI/UX teams to design and develop USAM's digital platform:
+                </li>
+                <li> <a href="https://career.usamif.com/" target="_blank" className="text-blue-600 hover:text-blue-800">Career Platform </a></li>
                 <li> <a href="https://freelancing.usamif.com/" target="_blank" className="text-blue-600 hover:text-blue-800"> Freelancing Platform </a></li>
-                <li> <a href="https://www.3akl-books.store/" target="_blank" className="text-blue-600 hover:text-blue-800"> Bookstore</a> An e-commerce platform for purchasing books.</li>
-                <li>Designed and implemented REST API backend applications from the ground up to meet the startup business requirements using Node.js and Python</li>
+                <li> <a href="https://education.usamif.com/" target="_blank" className="text-blue-600 hover:text-blue-800"> Education Platform</a></li>
+                <li>Designed and implemented REST API backend applications from the ground up to meet the startup business requirements.</li>
                 <li>
                   Built a scalable and secure backend infrastructure on AWS (RDS, EC2) to support high traffic,
                   ensuring optimal performance,
+                </li>
+                <li>Developed and integrated payment processing solutions using Paymob and Stripe to ensure secure and efficient transactions.
                 </li>
                 <li>
                 Secure data transmission with HTTPS/SSL, and protection against
@@ -171,7 +175,7 @@ function App() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold">Backend Engineering Intern, KeenSight - US (Remote)</h3>
-              <p className="text-gray-600 mb-2">Oct. 2024 – Jan. 2025</p>
+              <p className="text-gray-600 mb-2">May. 2024 – Aug. 2024</p>
               <ul className="list-disc list-inside text-gray-600">
                 <li>Designed and implemented a REST API backend solutions </li> 
                 <li> Integrated with Photopea to facilitate advanced image processing
