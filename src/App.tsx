@@ -151,7 +151,7 @@ function App() {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Professional Experience</h2>
           <div className="space-y-8">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold">Backend Developer (Freelancer)</h3>
+              <h3 className="text-xl font-semibold">Backend Developer, USAM (Remote)</h3>
               <p className="text-gray-600 mb-2">Aug. 2024 - Present</p>
               <ul className="list-disc list-inside text-gray-600">
                 <li>Led the team and collaborated closely with frontend and UI/UX teams to design and develop USAM's digital platform:
