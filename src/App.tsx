@@ -63,14 +63,14 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+            <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Task Management Api</h3>
                 <p className="text-gray-600 mb-4">The Task Management API is a scalable, event-driven, and high-performance backend service.</p>
                 <p className="text-gray-600 mb-4"> Technologies: Node.js, TypeScript, Express, MongoDB, Redis, BullMQ, and RabbitMQ,  all orchestrated with Docker. Also assisted in setting up CI/CD using GitHub Actions.</p>
                 <a href="https://github.com/Mahmoud-Elwazeer/Task_Management_API" target="_blank" className="text-blue-600 hover:text-blue-800">View Project →</a>
               </div>
-            </div> */}
+            </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">E-Commerce API</h3>
